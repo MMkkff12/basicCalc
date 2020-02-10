@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="alert alert-primary" style="text-align: center;">
+<h1 class="alert alert-secondary">Very Basic Calculator</h1>
+<div class="alert alert-danger">
+    <h3 class="alert alert-heading" id="output"> </h3>
+
+
+</div>
+<!-- input for functions -->
+<div class="alert alert-warning">
+
+    <input type="number" name="num1" id="num1">
+    <input type="number" name="num2" id="num2">
+</div>
+<div class="alert alert-success">
+    <button onclick="add()"> <span class="badge badge-danger"> + </span> </button>
+    <button onclick="sub()"> <span class="badge badge-danger"> - </span> </button>
+    <button onclick="mul()"> <span class="badge badge-danger"> * </span> </button>
+    <button onclick="div()"> <span class="badge badge-danger"> / </span> </button>
+    <button onclick="mod()"> <span class="badge badge-danger"> % </span> </button>
+    <button onclick="inc()"> <span class="badge badge-danger"> ++ </span> </button>
+    <button onclick="dec()"> <span class="badge badge-danger"> -- </span> </button>
+
+</div>
+
+    <script src="basicCalc.js"></script>
+    
+</body>
+</html>
